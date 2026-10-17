@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Политика конфиденциальности Hello School / Hello School Privacy Policy. Sergey Peleshok, treegteam@icloud.com.">
+  <title>Hello School — Политика конфиденциальности / Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --muted: #51515a; --link: #005bbb; --line: #dedee3; }
+    * { box-sizing: border-box; }
+    html { scroll-padding-top: 20px; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 840px; margin: 0 auto; padding: 36px 20px 64px; }
+    header { margin-bottom: 24px; }
+    .brand { margin: 0 0 4px; font-size: 22px; font-weight: 700; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+    nav a { padding: 6px 0; }
+    article { padding: 32px; margin-top: 24px; background: var(--card); border: 1px solid var(--line); border-radius: 20px; }
+    h1, h2 { line-height: 1.25; text-wrap: balance; }
+    h1 { margin: 0 0 12px; font-size: clamp(26px, 5vw, 36px); }
+    h2 { margin: 30px 0 10px; font-size: 21px; }
+    p, ul { margin: 12px 0; }
+    ul { padding-left: 22px; }
+    li + li { margin-top: 8px; }
+    a { color: var(--link); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--link); outline-offset: 4px; border-radius: 2px; }
+    .date, footer { color: var(--muted); font-size: 15px; }
+    footer { margin-top: 24px; }
+    @media (max-width: 480px) { main { padding: 24px 12px 40px; } article { padding: 24px 18px; border-radius: 16px; } }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111114; --card: #1c1c20; --text: #f5f5f7; --muted: #b9b9c2; --link: #8bc2ff; --line: #393940; } }
+    @media print { body { background: white; color: black; } main { max-width: none; padding: 0; } article { border: 0; padding: 0; } article + article { break-before: page; } nav { display: none; } a { color: inherit; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">Hello School</p>
+      <nav aria-label="Язык / Language">
+        <a href="#ru" lang="ru">На русском</a>
+        <a href="#en" lang="en">In English</a>
+      </nav>
+    </header>
+
+    <article id="ru" lang="ru" aria-labelledby="ru-title">
+      <h1 id="ru-title">Политика конфиденциальности</h1>
+      <p class="date">Дата редакции: <time datetime="2026-10-17">17 октября 2026 года</time></p>
+      <p>Эта политика описывает обработку данных в приложении <strong>Hello School</strong>. Разработчик — <strong>Sergey Peleshok</strong>. По вопросам конфиденциальности: <a href="mailto:treegteam@icloud.com">treegteam@icloud.com</a>.</p>
+      <p>Hello School — независимое приложение для просмотра школьного дневника BilimClass и семейных настроек наград. Оно не является официальным приложением BilimClass и не представляет школу. Отдельная учётная запись Hello School не создаётся.</p>
+
+      <h2>1. Вход и школьные данные</h2>
+      <p>Вы входите с существующими данными BilimClass. Логин и пароль отправляются напрямую в BilimClass по HTTPS. Hello School не сохраняет пароль и не отправляет его разработчику. Для сохранения входа приложение хранит токены доступа и обновления в защищённом хранилище устройства: Keychain на iOS и хранилище с защитой Android Keystore на Android.</p>
+      <p>В пределах доступа вашей учётной записи приложение получает из BilimClass сведения об учениках и классе, предметах, преподавателях, расписании и кабинетах, оценках и посещаемости, темах уроков, домашних заданиях и материалах. Они нужны для показа дневника, прогнозов, наград и проверки новых оценок.</p>
+      <p>У разработчика нет собственного сервера для хранения школьных данных. Приложение обращается непосредственно к сервисам BilimClass. BilimClass и школа обрабатывают исходные сведения по своим правилам; удаление Hello School не удаляет их записи.</p>
+
+      <h2>2. Что сохраняется на устройстве</h2>
+      <ul>
+        <li>Токены входа и код родителя для режима «Телефон ребёнка» — в защищённом хранилище.</li>
+        <li>Язык, оформление, выбранный ученик и аватар, режим телефона, настройки уведомлений и отметки о просмотренных обновлениях — в локальной базе приложения.</li>
+        <li>Настройки семейных наград, записи чтения, отметки выплат и архивы четвертей с предметами, оценками и расчётами — в локальной базе. Суммы служат для семейного учёта: приложение не проводит денежные переводы и не запрашивает банковские реквизиты.</li>
+        <li>Идентификаторы уже замеченных оценок и служебные отметки проверки — для предотвращения повторных уведомлений.</li>
+        <li>До 12 последних событий работы входа: время, тип события и иногда код HTTP. В этот журнал не записываются имена, оценки, пароли и токены.</li>
+      </ul>
+      <p>Загруженный дневник и подробности уроков используются в памяти приложения; перечисленные выше архивы и настройки сохраняются отдельно. Собственной облачной синхронизации этих локальных записей между телефонами нет. Резервные копии устройства зависят от настроек и правил операционной системы.</p>
+
+      <h2>3. Уведомления и фоновые проверки</h2>
+      <p>Уведомления включаются по вашему выбору. Приложение может проверять BilimClass при открытии и в фоне, когда это разрешает система, и создавать локальные уведомления о новых оценках и напоминания. Мгновенная доставка не гарантируется. Токен для удалённых push-уведомлений не регистрируется и не отправляется на сервер разработчика.</p>
+      <p>Текст уведомления может содержать имя ученика, предмет или оценку. Видимость текста на заблокированном экране регулируется настройками телефона. Уведомления можно отключить в приложении или настройках системы; дневник доступен и без этого разрешения.</p>
+
+      <h2>4. Обновления приложения</h2>
+      <p>Для доставки обновлений используется Expo EAS Update. Запросы содержат случайный технический идентификатор установки, платформу, сведения о версии и обновлении; сервер также получает IP-адрес. При ошибке запуска может передаваться краткое техническое сообщение. Приложение не добавляет в запросы обновлений ФИО, оценки, задания или данные входа BilimClass. Обработка этих технических данных описана в <a href="https://expo.dev/privacy">политике Expo</a>.</p>
+
+      <h2>5. Поддержка, материалы и обмен</h2>
+      <p>Кнопка связи с поддержкой открывает черновик в вашей почтовой программе с версией приложения, системой телефона и локальным журналом событий входа. Письмо отправляется только вашим действием. Если вы отправите его, разработчик получит ваш адрес и содержимое письма, включая добавленные вами вложения. Переписка хранится столько, сколько необходимо для ответа, решения вопроса и выполнения применимых обязательств. Запросить её удаление можно по адресу поддержки.</p>
+      <p>При нажатии «Поделиться» вы выбираете получателя в системном меню. Текст или изображение награды могут содержать имя ребёнка, предмет и дату. Изображение может временно сохраняться в кеше приложения до его очистки или удаления приложения. Выбранный сервис обрабатывает переданное по своим правилам; автоматической публикации нет.</p>
+      <p>Учебные ссылки открываются по вашему нажатию. Внешний сайт получает обычные данные веб-запроса и может использовать собственные cookies; токены входа Hello School к ссылкам не добавляются. При открытии этой страницы её хостинг также получает обычные технические данные запроса. Сама страница не подключает аналитику, рекламные скрипты или формы сбора данных.</p>
+
+      <h2>6. Дети и реклама</h2>
+      <p>Приложение предназначено для использования родителем или законным представителем, в том числе с предоставлением ребёнку доступа в режиме «Телефон ребёнка». Используйте только учётные записи и сведения, к которым у вас есть право доступа. Данные детей используются для функций дневника и семейных наград. В приложении нет рекламы, продажи персональных данных и отслеживания для рекламы.</p>
+
+      <h2>7. Срок хранения и удаление</h2>
+      <p>Выход из аккаунта удаляет сохранённые данные входа, очищает дневник из памяти и прекращает фоновые проверки и уведомления. Выход не удаляет все локальные настройки, архивы наград и записи чтения и выплат. Чтобы удалить обычные локальные данные, удалите приложение с данными устройства; на iOS выберите «Удалить приложение», а не «Сгрузить приложение».</p>
+      <p>Защищённое хранилище iOS может сохраняться после удаления приложения. При первом запуске после переустановки Hello School очищает оставшиеся данные старого входа. Системные резервные копии и данные сторонних сервисов удаляются по правилам соответствующих поставщиков.</p>
+      <p>По вопросам доступа, исправления или удаления данных, полученных разработчиком, обращайтесь в поддержку. Для исправления оценок или удаления учётной записи BilimClass обратитесь в школу или BilimClass: Hello School не управляет исходным аккаунтом.</p>
+
+      <h2>8. Изменения и контакт</h2>
+      <p>При изменении обработки данных эта страница обновляется с новой датой редакции. Существенные изменения также описываются в приложении. Вопросы и обращения: Sergey Peleshok, <a href="mailto:treegteam@icloud.com">treegteam@icloud.com</a>.</p>
+    </article>
+
+    <article id="en" lang="en" aria-labelledby="en-title">
+      <h1 id="en-title">Privacy Policy</h1>
+      <p class="date">Last updated: <time datetime="2026-10-17">October 17, 2026</time></p>
+      <p>This policy describes data handling in <strong>Hello School</strong>, developed by <strong>Sergey Peleshok</strong>. Privacy contact: <a href="mailto:treegteam@icloud.com">treegteam@icloud.com</a>.</p>
+      <p>Hello School is an independent app for viewing a BilimClass school diary and managing family rewards. It is not an official BilimClass app and does not represent the school. It does not create a separate Hello School account.</p>
+
+      <h2>1. Sign-in and school information</h2>
+      <p>You sign in with your existing BilimClass credentials. Your login and password are sent directly to BilimClass over HTTPS. Hello School does not save your password or send it to the developer. Access and refresh tokens are kept in the device’s secure storage: Keychain on iOS and storage protected with Android Keystore on Android.</p>
+      <p>Within your account’s permissions, the app retrieves student and class information, subjects, teachers, timetables and rooms, grades and attendance, lesson topics, homework and materials. This information is used to display the diary, calculate forecasts and rewards, and check for new grades.</p>
+      <p>The developer has no server storing school information. The app connects directly to BilimClass services. BilimClass and the school handle the source records under their own rules; removing Hello School does not delete those records.</p>
+
+      <h2>2. Information stored on your device</h2>
+      <ul>
+        <li>Sign-in tokens and the parent code for Child’s phone mode are kept in secure storage.</li>
+        <li>Language, appearance, selected student and avatar, phone mode, notification preferences and viewed release notices are kept in the local app database.</li>
+        <li>Family reward settings, reading entries, payout records and quarter archives containing subjects, grades and calculations are stored locally. Amounts are for family record keeping; the app does not transfer money or request bank details.</li>
+        <li>Previously seen grade identifiers and check status are stored to prevent duplicate notifications.</li>
+        <li>Up to 12 recent sign-in events are stored with a timestamp, event type and sometimes an HTTP status. This log does not record names, grades, passwords or tokens.</li>
+      </ul>
+      <p>The loaded diary and lesson details are used in memory; the archives and settings listed above are stored separately. The app does not provide cloud synchronization of these local records between devices. Device backups depend on your operating system and backup settings.</p>
+
+      <h2>3. Notifications and background checks</h2>
+      <p>Notifications are optional. The app can check BilimClass when opened and in the background when the operating system permits, then create local grade notifications and reminders. Immediate delivery is not guaranteed. It does not register or send a remote push notification token to the developer’s server.</p>
+      <p>Notification text may contain a student’s name, subject or grade. Your phone’s settings control lock screen previews. You can disable notifications in the app or system settings and continue to use the diary.</p>
+
+      <h2>4. App updates</h2>
+      <p>Expo EAS Update delivers app updates. Requests contain a random technical installation identifier, platform and version/update information; the server also receives your IP address. A brief technical message may be sent following a startup error. The app does not add names, grades, homework or BilimClass credentials to update requests. See <a href="https://expo.dev/privacy">Expo’s privacy policy</a> for its handling of this technical data.</p>
+
+      <h2>5. Support, materials and sharing</h2>
+      <p>Contacting support opens a draft in your email app with the app version, phone operating system and local sign-in event log. You decide whether to send it. If sent, the developer receives your email address and message, including attachments you add. Correspondence is retained as needed to respond, resolve the issue and meet applicable obligations. You may request its deletion through the support address.</p>
+      <p>When you tap Share, you select a recipient in the system share menu. Award text or an image may contain the child’s name, subject and date. An image may remain in the app’s cache until cleared or the app is deleted. The chosen service handles what you share under its own terms; nothing is published automatically.</p>
+      <p>Learning materials open only when you tap a link. External sites receive normal web request information and may use their own cookies; Hello School sign-in tokens are not added to these links. This policy page’s host also receives normal technical request data. The page itself includes no analytics, advertising scripts or data collection forms.</p>
+
+      <h2>6. Children and advertising</h2>
+      <p>The app is intended for use by a parent or legal guardian, including giving a child access through Child’s phone mode. Use only accounts and information you are entitled to access. Children’s information is used for diary and family reward features. The app has no advertising, sale of personal data or tracking for advertising.</p>
+
+      <h2>7. Retention and deletion</h2>
+      <p>Signing out removes saved sign-in credentials, clears the diary from memory and stops background checks and notifications. It does not erase all local preferences, reward archives, reading entries or payout records. To remove ordinary local app data, delete the app and its data from your device. On iOS, choose Delete App rather than Offload App.</p>
+      <p>iOS secure storage can survive app deletion. On the first launch after reinstallation, Hello School clears remaining credentials from the previous installation. System backups and data held by external services are managed under those providers’ rules.</p>
+      <p>Contact support about accessing, correcting or deleting information received by the developer. To correct school grades or delete a BilimClass account, contact the school or BilimClass; Hello School does not control that account.</p>
+
+      <h2>8. Changes and contact</h2>
+      <p>Changes to data handling will be reflected here with an updated date. Material changes will also be described in the app. Questions and requests: Sergey Peleshok, <a href="mailto:treegteam@icloud.com">treegteam@icloud.com</a>.</p>
+    </article>
+
+    <footer>© 2026 Sergey Peleshok · Hello School</footer>
+  </main>
+</body>
+</html>
